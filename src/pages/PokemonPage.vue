@@ -1,4 +1,9 @@
 <template>
+    <img
+      src="../assets/pokemon-logo.png" 
+      class="fade-in"
+      alt="pokemon" >
+
     <h1 v-if="!pokemon">Espere por favor...</h1>
 
     <div v-else>
